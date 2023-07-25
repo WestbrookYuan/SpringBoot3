@@ -1,0 +1,16 @@
+app:
+  name: ocr
+  owner: acca
+  port: 8080
+
+# 多个文件
+spring:
+  config:
+    import: conf/db.yml,conf/redis.yml
+  profiles:
+    active: dev
+
+
+# activate profile
+# No active profile set, falling back to 1 default profile: "default"
+

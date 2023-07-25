@@ -1,0 +1,7 @@
+myapp:
+  memo: for test environment
+
+spring:
+  config:
+    activate:
+      on-profile:
