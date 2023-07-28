@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Lession02-project" />
+        <module name="Lession09-AOP" />
         <module name="Lession07-config" />
         <module name="Lession06-package" />
         <module name="Lession04-Single" />
         <module name="Lession01" />
+        <module name="TestMaven" />
         <module name="Lession08-AppBean" />
       </profile>
     </annotationProcessing>
@@ -28,6 +30,7 @@
       <module name="Lession06-package" options="-parameters" />
       <module name="Lession07-config" options="-parameters" />
       <module name="Lession08-AppBean" options="-parameters" />
+      <module name="Lession09-AOP" options="-parameters" />
     </option>
   </component>
 </project>
